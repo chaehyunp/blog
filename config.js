@@ -16,7 +16,7 @@ const users = [
     username: "claire",
     company: "",
     position: "owner",
-    img: "img/user/prfile-blkrabbit.png",
+    img: "img/user/profile-bluerabbit.png",
   },
 ];
 
