@@ -58,7 +58,7 @@ CocoaPods, SPM(Swift Package Manager), Carthage 등을 이용해서 서드파티
 
 SnapKit을 사용할 본인의 스위프트 파일 최상단에서 `import SnapKit`이 될 경우 라이브러리를 잘 가져온 것이지만, 나는 `No such module 'SnapKit'`이 떴다. 🥵
 </br>
-바로 이 부분에서 문제였다. Xcode 프로젝트 생성시 최하단에 Include Tests를 체크하고 생성하게 되면 자동으로 기본 테스트 코드들을 만들어준다. 따라서 바로 `Add Package`할 것이 아니라 어떤 모듈에 추가할 것인지 지정해준 후에 추가해주어야 한다.
+바로 이 부분에서 문제였다. Xcode 프로젝트 생성시 최하단에 Include Tests를 체크하고 생성하게 되면 자동으로 기본 테스트 코드들을 만들어준다. 따라서 바로 `Add Package`할 것이 아니라 **어떤 모듈에 추가할 것인지 지정해준 후에 추가**해주어야 한다.
 
 <img width="660" alt="스크린샷 2024-11-14 오후 11 34 13" src="https://github.com/user-attachments/assets/f8c10661-ab18-45fc-9cf7-91bc64017492">
 
